@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8"><!--设定网页编码-->
+     <title>Title</title><!--设定网页标题-->
+     <style>
+         .line{
+             display: inline-block;
+             height:1px;
+             width:100%;
+             background:#00CCFF;
+             overflow:hidden;
+            vertical-align: middle;
+         }
+     </style>
+ </head>
+ <body>
+     <meta charset="UTF-8">
+     {% for goods in goods %}<!--对列表进行遍历-->
+         <li style="list-style-type:none">{{ goods.name }}<span class="{{ loop.index | index_class }}"></span></li><!--每3条记录输出一条分割线-->
+     {% endfor %}<!--for循环完毕-->
+ </body>
+ </html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+{#    <script src="{{ url_for('static', filename='js/jquery-3.3.1/jquery-3.3.1.js') }}"></script>#}
+
+<script type="text/javascript" src="static/js/jquery-3.3.1/jquery-3.3.1.js"></script>
+<link rel="stylesheet" href="{{ url_for('static',filename='css/car.css') }}">
+</head>
+<body>
+{#测试jquery是否加载#}
+<script>
+    if(jQuery) {
+        alert('jQuery已加载!');
+    }
+    else {
+        alert('jQuery未加载!');
+    }
+</script>
+<div class="img">
+<img src="{{ url_for('static', filename='images/car.jpg') }}"></img>
+</div>
+</body>
+</html>

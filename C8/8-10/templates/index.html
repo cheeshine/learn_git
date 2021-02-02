@@ -1,0 +1,44 @@
+   <!DOCTYPE html>
+   <html lang="zh-cn">
+   <head>
+       <meta charset="UTF-8" />
+       <title>bootstrap的表格</title>
+       <link rel="stylesheet" href="css/bootstrap.css">
+       <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+       <style>
+   		.div2{
+   		width:540px;
+   		height:620px;
+   		margin:10px 20px;
+   		padding:10px 20px;
+   		border:#930;
+   	}
+   	</style>
+   </head>
+   <body>
+   <div class="container" >
+   <div class="div2">
+    <h1>默认表单</h1>
+        <form action="#" role="form" >
+            <div class="form-group">
+                 <label for="uname" class="control-label">用户名</label>
+               <input type="text" id="uname" class="form-control" placeholder="请输入用户名">
+            </div>
+            <div class="form-group">
+                 <label for="upwd" class="control-label">密码</label>
+               <input type="password" id="upwd" class="form-control" placeholder="密码为6-8位">
+           </div>
+           <div class="form-group">
+               <div class="checkbox">
+               <label><input type="checkbox">七天免密登陆</label>
+                </div>
+          </div>
+           <div class="form-group">
+               <input type="button" id="login" value="登录" class="btn btn-success">
+               <input type="button" id="logout" value="取消" class="btn btn-danger">
+           </div>
+        </form>
+        </div>
+        </div>
+   </body>
+   </html>

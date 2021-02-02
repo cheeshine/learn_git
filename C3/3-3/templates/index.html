@@ -1,0 +1,14 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8"><!-- 设定网页编码-->
+       <title>Title</title><!-- 设定网页标题-->
+   </head>
+   <body>
+   {% if name %}<!-- name值是否存在-->
+      <h1>产生的随机数有效！</h1><!-- name值存在，则输出产生的随机数有效！-->
+   {% else %}<!-- name值不存在-->
+       <h1>产生的随机数无效！</h1><!-- name值不存在，则输出产生的随机数无效！-->
+   {% endif %}<!-- 结束if-->
+   </body>
+   </html>

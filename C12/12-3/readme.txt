@@ -1,0 +1,1 @@
+1.使用“http://127.0.0.1:5000/admin/admin_permission/”地址进行访问。

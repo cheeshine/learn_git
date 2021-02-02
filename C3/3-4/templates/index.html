@@ -1,0 +1,16 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8"><!-- 设定网页编码-->
+       <title>Title</title><!-- 设定网页标题-->
+   </head>
+   <body>
+   {% if name==1 %}<!-- name的值是否等于1-->
+      <h1>恭喜，您抽得了一等奖</h1><!-- name的值等于1，显示本行h1代码内容-->
+   {% elif name==2 %}<!-- name的值是否等于2-->
+       <h1>恭喜，抽得了二等奖！</h1><!-- name的值等于2，显示本行h1代码内容-->
+   {% else %}<!-- name的值是否等于其他-->
+       <h1>恭喜，抽得了三等奖！</h1><!-- name的值等于其他，显示本行h1代码内容-->
+   {% endif %}<!-- 结束if-->
+   {{ name }}
+   </body>

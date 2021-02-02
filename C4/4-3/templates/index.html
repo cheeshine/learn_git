@@ -1,0 +1,37 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8"><!--设定网页编码-->
+       <title>Title</title><!--设定网页标题-->
+   <style type="text/css"><!--自定义CSS-->
+    .div1 {<!--定义div1容器-->
+        height:180px; <!--高度为180px-->
+        width:380px; <!--宽度为380px-->
+        border:1px solid #8A8989; <!--边框实线-->
+        margin:0 auto; <!--使得元素水平对齐-->
+           }
+   .input{<!--定义容器input-->
+       display: block; <!--让对象成为块级元素-->
+   	width: 350px; <!--宽度为350px-->
+   	height: 40px; <!--高度为40px-->
+   	margin: 10px auto; <!--使元素水平对齐-->
+   }
+    .button<!--定义容器button-->
+   	{
+        background: #2066C5; <!--背景颜色-->
+   	color: white; <!--设置字体颜色-->
+   	font-size: 18px; <!--设置字体大小-->
+   	font-weight: bold; <!--字体加粗-->
+   	height: 50px; <!--容器高度为50px-->
+   	border-radius: 4px; <!--所有角都使用半径为4px的圆角-->
+   	}
+       </style>
+   </head><!--head区域完毕-->
+   <body><!--body区域开始-->
+   <div class="div1"><form action="login" method = "post"><!--表单开始-->
+       <input type="text" class="input" name="username" placeholder="请输入用户名">
+   	<input type="password" class="input"  name="pwd" placeholder="请输入密码">
+       <input type="submit" value="登录"  class="input button"><!--定义登录submit-->
+   </form></div><!--表单定义完毕-->
+   </body>
+   </html>

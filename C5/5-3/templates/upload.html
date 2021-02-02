@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+    <style type="text/css">
+        .div1{
+            height:180px;
+        width:380px;
+            border:1px solid #8A8989;
+            margin:0 auto;
+        }
+        .a-upload {
+            padding: 4px 10px;
+            height: 20px;
+            line-height: 20px;
+            position: relative;
+            cursor: pointer;
+            color: #888;
+            background: #fafafa;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+            display: inline-block;
+            *display: inline;
+            *zoom: 1
+        }
+        .input{
+      display: block;
+  	width: 250px;
+  	height: 30px;
+   	margin: 10px auto;
+   }
+   .button
+   	{
+       background: #2066C5;
+   	color: white;
+   	font-size: 18px;
+  	font-weight: bold;
+   	height: 30px;
+  	border-radius: 4px;
+   	}
+    </style>
+</head>
+<body>
+<div class="div1">
+
+
+    <form action="" method = "post" enctype='multipart/form-data'>
+
+        <input type="file" name="file" class="input">
+
+         <input type="submit" value="上传" class="input button">
+    </form>
+
+</div>
+</body>
+</html>
