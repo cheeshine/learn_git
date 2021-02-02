@@ -1,0 +1,8 @@
+Detected added foreign key
+外键检查与关闭：
+https://www.crifan.com/sequel_delete_mysql_table_error_mysql_said_cannot_delete_or_update_a_parent_row_a_foreign_key_constraint_fails/amp/
+
+https://mozillazg.com/2014/11/python-alembic-rename-column-name-field-name.html
+
+https://www.crifan.com/flask_migrate_upgrade_mysql_rename_not_remove_column/amp/
+Context impl MySQLImpl

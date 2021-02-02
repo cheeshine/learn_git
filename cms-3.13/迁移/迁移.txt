@@ -1,0 +1,13 @@
+方式一：
+在你的pycharm下的Terminal下输入
+
+ 
+
+  pip freeze > 保存文件名
+
+pip freeze > requirments.txt
+ 
+
+ 
+
+这个就是获取你的环境下的所有的第三方包但是有很多多余的，你可以自定义保存文件名

@@ -1,0 +1,200 @@
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+
+[2019-03-08 18:16:54,159] {K:\python project\cms\apps\front\views.py:251} WARNING - 
+Context:<unknown>
+SLOW QUERY: SELECT jq_auth.id AS jq_auth_id, jq_auth.name AS jq_auth_name, jq_auth.url AS jq_auth_url, jq_auth.parent_id AS jq_auth_parent_id, jq_auth.status AS jq_auth_status, jq_auth.add_time AS jq_auth_add_time 
+FROM jq_auth 
+WHERE jq_auth.id = %(id_1)s 
+ LIMIT %(param_1)s
+Parameters: {'id_1': 1, 'param_1': 1}
+START_TIME: 1448.29865222
+Duration: 0.0005097290002140653
+

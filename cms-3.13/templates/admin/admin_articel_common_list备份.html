@@ -1,0 +1,79 @@
+{% extends 'admin/admin_base.html' %}
+{% block title %} 评论列表{% endblock %}
+{% block header %}
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static',filename='static/h-ui.admin/css/public.css')}}">
+    <script type="text/javascript" src="{{url_for('static',filename='static/h-ui.admin/js/qikoo.js')}}"></script>
+
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+　<script type="text/javascript" src="{{url_for('static',filename='lib/jquery/1.9.1/jquery.min.js')}}"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{url_for('static',filename='layer/layer.js')}}"></script>
+            <div style="height:10px;clear:both;display:block"></div> <style type="text/css">
+        .form_div{
+            width: 100%;
+            margin:5px 5px;
+            padding: 10px 20px;
+
+        }
+    </style>
+{% endblock %}
+{% block main_content %}
+
+
+<div class="container">
+    <div class="mainBox" style="height:auto!important;height:550px;min-height:550px;">
+
+         <h3><a href="{{ url_for('admin.article_cat_add') }}" class="actionBtn add">添加分类</a>评论列表</h3>
+<table width="100%" border="0" cellpadding="8" cellspacing="0" class="tableBasic">
+     <tr>
+        <th width="120" align="left">评论ID</th>
+      <th align="left">作者</th>
+        <th align="left">评论内容</th>
+       <th width="60" align="center">排序</th>
+        <th width="80" align="center">操作</th>
+      </tr>
+
+            {% if datas.dic_list %}
+                       {{ datas.dic_list| safe }}
+                    {% endif %}
+
+
+          </table>
+    </div>
+
+<div class="form_div">
+<ul class="pagination">
+       {% if datas.show_shouye_status==1%}
+           <li class=''><a href='/admin/commont_list/?p=1'>首页</a></li>
+           <li class=''><a href='/admin/commont_list/?p={{datas.p-1}} '>上一页</a></li>
+      {%endif%}
+
+       
+
+       {% if datas.p < datas.total%}
+            <li class=''><a href='/admin/commont_list/?p={{datas.p+1}}'>下一页</a></li>
+            <li class=''><a href='/admin/commont_list/?p={{datas.total}} '>尾页</a></li>
+       {%endif%}
+            
+ </ul>
+</div>
+
+    </div>
+{% endblock %}
+
+
+{% block footr_css_js %}
+
+<!--请在下方写此页面业务相关的脚本-->
+
+
+
+
+{% endblock %}
+{% block footr %}
+
+{% endblock %}
